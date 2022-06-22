@@ -9,6 +9,11 @@ body{
     background-origin: border-box;
     background-size: cover;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo1 img{
     border-radius: 50%;
 }
@@ -30,4 +35,7 @@ body{
 
 .navbar .logo1 {
     display: flex;
+}
+.navbar input {
+    margin-right: 20px;
 }
