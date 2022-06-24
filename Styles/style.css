@@ -52,3 +52,11 @@ body{
 h2{
     color: darkgrey;
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 100px;
+}
+.grid-container .container1{
+    margin-top: 100px;
+}
