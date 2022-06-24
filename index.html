@@ -13,9 +13,24 @@
             <img src="/Assets/Images/istockphoto-598826374-612x612.jpg" alt="Air">
             <h1><span1>Latitude</span1> And <span2>Longitude</span2></h1>
         </div>
+        <div class="logo2">
+            <li><a href="#">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#coordinate">Cordinates</a></li>
+            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#review">Reviews</a></li>
+        </div>
         
-    </div>  
-   <h2 id="location"> Show location <button type="button" onclick="button()">Click to view</button></h2>
+    </div> 
+    <h2 id="About" >About us</h2>
+    <h2 id="coordinate">Coordinates</h2>
+    <h2 id="contact">Contacts</h2>
+
+    <h2 id="review">Reviews</h2>
 <script src="/src/index.js"></script>
+<form id="review-form">
+    <label for="review">Your Review:</label>
+    <textarea id="review" required></textarea>
+    <button onclick="button()" type="submit">Add review</button>
 </body>
 </html>

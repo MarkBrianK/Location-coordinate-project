@@ -6,7 +6,21 @@
     console.log(data.longitude)
   }
   getData()
-  document.getElementById("location").addEventListener("click", button)
+  document.getElementById("review-form").addEventListener("click", button)
 function button(){
-   alert (`Disclaimer: This apllication is still in the development stages`)
+   alert (`Thank you for your response`)
 }
+const reviewForm = document.querySelector('form#review-form')
+reviewForm.addEventListener('submit',(e)=>{
+    e.preventDefault()
+    const customerReview = document.getElementById("review").value
+    const newReview = document.createElement('li')
+    newReview.style.cursor = 'pointer'
+    newReview.innerText = customerReview
+    reviewList.appendChild(newReview)
+    reviewForm.reset()
+    newReview.addEventListener('click',(e)=>{
+        e.preventDefault()
+        newReview.remove()
+    })
+})
