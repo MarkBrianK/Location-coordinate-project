@@ -51,6 +51,7 @@ body{
 }
 h2{
     color: darkgrey;
+    font-size: xx-large;
 }
 .grid-container{
     display: grid;

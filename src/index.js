@@ -6,6 +6,7 @@
     document.getElementById('long').textContent = longitude
   }
   getData()
+  setInterval(getData, 1000)
   document.getElementById("review-form").addEventListener("click", button)
 function button(){
    alert (`Thank you for your response`)
