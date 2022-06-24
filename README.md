@@ -7,10 +7,10 @@
 ### Requirements
 Access to internet so as to get live accurate information from a satelite
 ### Technology used
-HTML- used to develop the structure of the web
-CSS - used to style the interface
-Javascript -used to fetch the web and coordinates data
-###Licence
+#### HTML- used to develop the structure of the web
+#### CSS - used to style the interface
+#### Javascript -used to fetch the web and coordinates data
+### Licence
 MIT License
 
 Copyright (c) 2022 MarkBrian
@@ -32,6 +32,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-###Authors info
-
+### Authors info
+https://github.com/MarkBrianK
 
