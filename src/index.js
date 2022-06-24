@@ -2,8 +2,8 @@
     let response = await fetch('https://api.wheretheiss.at/v1/satellites/25544')
     let data =await response.json()
     const {latitude, longitude} = data
-    console.log(data.latitude)
-    console.log(data.longitude)
+    document.getElementById('lat').textContent = latitude
+    document.getElementById('long').textContent = longitude
   }
   getData()
   document.getElementById("review-form").addEventListener("click", button)
