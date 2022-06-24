@@ -22,19 +22,27 @@
         </div>
         
     </div> 
-    <h2 id="About" >About us</h2>
-    <h2 id="coordinate">Coordinates</h2>
-    <p>
-        latitude: <span2 id="lat"></span2><br>
-        longitude: <span2 id="long" ></span2>
-    </p>
-    <h2 id="contact">Contacts</h2>
-
-    <h2 id="review">Reviews</h2>
-<script src="/src/index.js"></script>
-<form id="review-form">
-    <label for="review">Your Review:</label>
-    <textarea id="review" required></textarea>
-    <button onclick="button()" type="submit">Add review</button>
+    <div class="grid-container">
+        <div>
+            <h2 id="About" >About us</h2>
+        </div>
+        <div> <h2 id="coordinate">Coordinates</h2>
+            <p>
+                latitude: <span2 id="lat"></span2><br>
+                longitude: <span2 id="long" ></span2>
+            </p>
+           
+        <div>
+            <h2 id="contact">Contacts</h2></div>
+        </div>
+        <div>
+            <h2 id="review">Reviews</h2>
+            <script src="/src/index.js"></script>
+            <form id="review-form">
+                <label for="review">Your Review:</label>
+                <textarea id="review" required></textarea>
+                <button onclick="button()" type="submit">Add review</button>
+        </div>
+    </div>
 </body>
 </html>
