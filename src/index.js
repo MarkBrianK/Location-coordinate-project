@@ -5,8 +5,10 @@
     document.getElementById('lat').textContent = latitude
     document.getElementById('long').textContent = longitude
   }
+  
   getData()
   setInterval(getData, 1000)
+
   document.getElementsByClassName("btn").addEventListener("click", button)
 function button(){
    alert (`Thank you for your response`)

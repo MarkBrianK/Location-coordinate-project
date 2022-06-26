@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ride And Mind</title>
+    <title>ISS Kenya</title>
     <link rel="stylesheet" type="text/css" href="./Styles/style.css">
 </head>
 <body>
     <div class="navbar">
         <div class="logo1">
-            <img src="./Assets/Images/istockphoto-598826374-612x612.jpg" alt="Air">
-            <h1><span1>Latitude</span1> And <span2>Longitude</span2></h1>
+            <img src="./Assets/Images/kenya flag.jpg" alt="Air">
+            <h1><span1>ISS</span1><span2>Kenya</span2></h1>
         </div>
         <div class="logo2">
             <li><a href="#">Home</a></li>
@@ -22,41 +22,65 @@
         </div>
         
     </div> 
-    <div class="grid-container">
-        <div class="container1">
+           <div class="container1">
             <h2 id="About" >About us</h2>
             <p>By use of this application you can <br> easily find the live coordinates of your location <br>
                 with just a tap.</p>
-        </div>
-        <div class="codes"> <h2 id="coordinate">Coordinates</h2>
+           </div> 
+           <div class="container2">
+            <h2 id="coordinate">Coordinates</h2>
             <p>
-                latitude: <span2 id="lat"></span2><br>
-                longitude: <span2 id="long" ></span2>
+                Latitude: <span2 id="lat"></span2><br><br>
+                Longitude: <span2 id="long" ></span2><br><br>
+                <img src="/Assets/Images/Kenya-Map.jpg" alt="">
             </p>
-        </div>
-           
-        <div class="codes2">
-            <h2 id="contact">Contacts</h2>
-            <div class="icon">
-                <img src="./Assets/Images/Gmail.png" alt=""> 
-                <h4>kariukimarkbrian@gmail.com</h4>
-                <img src="./Assets/Images/ig.png" alt=""><h4>_mark_brian</h4>
-                <img src="./Assets/Images/Titwer.png" alt=""><h4>Mark_Brian</h4>
-                <img src="./Assets/Images/download.png" alt=""><h4>MarkBrianK</h4>
-                <img src="./Assets/Images/download (1).png" alt=""><h4>MarkBrian Karanja</h4>
+           </div>
+           <div class="container4">
+            <h2 id="review">Reviews</h2>
+            <form id="review-form">
+                <label for="review">Your Review:</label>
+                <textarea id="review" required></textarea>
+                <button class="btn" onclick="button()" type="submit">Add review</button>
+            </form>
+           </div>
+             
+    <div class="container3">
+        <h1>Contact<span> Us</span></h1>
+        <div class="grid-container3">
+            <div>
+                <p>
+                    <a href="#">
+                        <img src="/Assets/Images/Gmail.png" alt=""> kariukimarkbrian@gmail.com
+                    </a> 
+                </p>
             </div>
-           
-        </div>
-            <div
-                <h2 id="review">Reviews</h2>
-                <form id="review-form">
-                    <label for="review">Your Review:</label>
-                    <textarea id="review" required></textarea>
-                    <button class="btn" onclick="button()" type="submit">Add review</button>
+            <div>
+                <p>
+                    <a href="#">
+                        <img src="/Assets/Images/download (1).png" alt=""> MarkBrian Karanja
+                    </a> 
+                </p>
             </div>
-           
+            <div>
+                <p>
+                    <a href="#">
+                        <img src="/Assets/Images/download.png" alt=""> MarkBriaK
+                    </a>
+
+                </p>
+            </div>
+            <div>
+                <p>
+                    <a href="#">
+                        <img src="/Assets/Images/ig.png" alt="">MarkBrian Karanja
+                    </a>
+                </p>
+            </div>
         </div>
     </div>
+</div>
+</div>
+
     <script src="./src/index.js"></script>
 </body>
 </html>
