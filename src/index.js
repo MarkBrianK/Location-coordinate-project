@@ -7,7 +7,7 @@
   }
   getData()
   setInterval(getData, 1000)
-  document.getElementById("review-form").addEventListener("click", button)
+  document.getElementsByClassName("btn").addEventListener("click", button)
 function button(){
    alert (`Thank you for your response`)
 }
