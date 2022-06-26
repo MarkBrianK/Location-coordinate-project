@@ -1,7 +1,7 @@
 # ISS Kenya
 ## By MarkBrian Kariuki
 ### Description
- The above project is a web application that provides live latitude and longitude coordinates. The coordinates keeps on slightly changing after one second.
+ The above project is a web application that provides live latitude and longitude coordinates of the International Space Station. The coordinates keeps on slightly changing after one second as the Iss moves. This information can be used to track when the ISS will next be in Kenyan space.
 ### Features
  As a user you are able to get access to acurate live coordinates.
 ### Requirements
