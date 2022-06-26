@@ -1,4 +1,4 @@
-# Live Location coordinates
+# ISS Kenya
 ## By MarkBrian Kariuki
 ### Description
  The above project is a web application that provides live latitude and longitude coordinates. The coordinates keeps on slightly changing after one second.
